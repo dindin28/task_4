@@ -4,7 +4,6 @@
 #include <task_4/uses_priority_queue.hpp>
 
 #include <functional>
-
 #include <iostream>
 
 template <typename T, class Compare = std::less<T>>
