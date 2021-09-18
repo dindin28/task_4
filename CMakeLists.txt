@@ -29,6 +29,8 @@ set(headers_path "${PROJECT_SOURCE_DIR}/include")
 #========================
 file(GLOB srcs "src/*.cpp")
 
+include_directories("src/")
+
 #========================
 #Building executable
 #========================
